@@ -1,0 +1,39 @@
+/* .step-line {
+  fill: lightblue;
+  height: 2px;
+}
+
+.step-line.active {
+  fill: blue;
+}
+
+.tooltip {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+} */
+.rect:hover {
+  transition: all 0.2s ease;
+  fill: rgba(21, 55, 250, 0.616);
+  z-index: 10 !important;
+}
+.yacheyka {
+  z-index: 1 !important;
+  stroke: gray;
+  stroke-width: 1;
+}
+.line {
+  z-index: 100 !important;
+  margin-top: 3px;
+}
+
+svg {
+  overflow-y: hidden !important;
+  cursor: crosshair;
+  margin-right: 0 !important;
+}
+.x {
+  stroke: #000;
+  font-size: 16px;
+}
+
